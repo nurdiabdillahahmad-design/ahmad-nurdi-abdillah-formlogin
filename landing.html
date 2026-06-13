@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fisch Roblox Dashboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-image: url('WhatsApp Image 2026-06-12 at 15.09.27.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.7), rgba(30, 58, 138, 0.7));
+    z-index: -1;
+    pointer-events: none;
+}
+
+header{
+    background:rgba(0,0,0,0.3);
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:40px 20px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    color:#333;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+}
+</style>
+
+</head>
+<a href="login.html" style="position:absolute;top:20px;right:20px;color:white;text-decoration:none;font-size:18px;background:rgba(0,0,0,0.3);padding:10px 15px;border-radius:8px;">Logout</a>
+<body>
+
+<header>
+    <h1>Welcome Back
+    </h1>
+</header>
+
+<section class="hero">
+    <h2>Selamat Datang!</h2>
+    <p>
+        Anda berhasil login ke halaman utama Fisch Roblox.
+        Web ini lagi dalam tahap pengembangan, jadi harap bersabar untuk fitur-fitur yang akan datang. Nantikan update terbaru dari kami!
+        Jelajahi event, koleksi ikan langka, dan perjalanan joran pancingmu di dashboard ini. Terima kasih sudah bergabung dengan komunitas Fisch Roblox!,
+    </p>
+</section>
+
+<section class="menu">
+
+    <div class="card">
+        <h3>🐟 Koleksi Ikan</h3>
+        <p>Lihat daftar ikan yang telah ditemukan  <p>
+      >
+       
+    </div>
+
+    <div class="card">
+        <h3>🎣 Rod Journey</h3>
+        <p>Lihat macam macam joran pancing yang kamu miliki.</p>
+       
+       
+    </div>
+
+    <div class="card">
+        <h3>🐟🎣 Event</h3>
+        <p>Informasi event dan hadiah terbaru yang akan datang.</p>
+       
+       
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy;Fisch Roblox Landing Page</p>
+</footer>
+
+</body>
+</html>
